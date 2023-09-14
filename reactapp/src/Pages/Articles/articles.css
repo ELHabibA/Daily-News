@@ -1,0 +1,149 @@
+/* Add styles for the article grid */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 96%;
+    padding: 1.25rem; /* Adjust as needed */
+}
+
+
+.comment-section {
+    flex: 1;
+    margin-left: 0.9rem;
+}
+
+.scroll-to-top-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+
+    .article-card img {
+        width: 100%; /* Fyll hela utrymmet i article-card */
+        height: auto; /* Behåll bildens proportioner */
+    }
+.article-card {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.2s;
+}
+
+    .article-card:hover {
+        transform: translateY(-5px);
+    }
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-info {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-summary {
+    margin-bottom: 0.5rem;
+}
+
+.card-published {
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.card-topic {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    .card-link:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+/* Second change
+.text-muted {
+    color: #6c757d;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.article-list {
+  flex: 1;
+  padding: 1rem;
+}
+
+.comment-section {
+  flex: 1;
+  padding: 1rem;
+}
+*/
+
+
+
+/* first change
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+    */

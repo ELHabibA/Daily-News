@@ -1,0 +1,36 @@
+.latest-news {
+    background-color: #f7f7f7;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 300px; /* Adjust the width as needed */
+}
+
+.latest-title {
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-bottom: 10px;
+    color: #333; /* Adjust the color as needed */
+}
+
+.latest-article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 100%; /* Make the article width 100% to fit inside the .latest-news container */
+}
+
+    .latest-article h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .latest-article p {
+        margin: 5px 0;
+    }
+
+    .latest-article a {
+        color: #007bff;
+        text-decoration: none;
+    }

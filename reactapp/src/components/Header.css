@@ -1,0 +1,31 @@
+/* Header.css */
+.logo-decoration {
+    color: #b00a27;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: red; /* Change the color of the logo text */
+    font-size: 32px; /* Adjust the font size as needed */
+    padding: 0 20px; /* Increase left and right padding */
+}
+
+.custom-header-items {
+    display: flex;
+    align-items: center;
+}
+
+    .custom-header-items .nav-link {
+        color: white; /* Change the color of the navigation links */
+        margin-right: 20px; /* Add spacing between navigation links */
+    }

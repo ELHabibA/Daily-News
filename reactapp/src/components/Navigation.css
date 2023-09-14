@@ -1,0 +1,26 @@
+/* Navigation.css */
+.custom-navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .custom-navigation .nav-item {
+        margin-right: 25px; /* Add spacing between navigation items */
+    }
+
+    .custom-navigation .nav-link {
+        color: white; /* Change the color of the navigation links */
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+        transition: color 0.3s, cursor 0.3s; /* Add smooth transition for color and cursor */
+    }
+
+        /* Apply the hover effect and cursor style */
+        .custom-navigation .nav-link:hover,
+        .custom-navigation .nav-link[data-topic] {
+            color: blue; /* Change text color on hover */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }

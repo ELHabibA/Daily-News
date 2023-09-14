@@ -1,0 +1,21 @@
+footer {
+    margin-top: 100px;
+    font-size: 16px;
+    background-color: white;
+    padding: 0.5px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    text-align: center; /* Centrera texten horisontellt */
+}
+
+nav ul {
+    list-style: none; /* Ta bort liststil */
+    padding: 0;
+    display: flex; /* Använd flexbox för att centrera texten */
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none; /* Ta bort understrykning */
+    margin: 0 10px; /* Lägg till mellanrum mellan länkarna */
+}
